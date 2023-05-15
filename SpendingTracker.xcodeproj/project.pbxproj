@@ -13,6 +13,7 @@
 		0065C3E42A126EEB004A6274 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0065C3E32A126EEB004A6274 /* Preview Assets.xcassets */; };
 		0065C3E62A126EEB004A6274 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065C3E52A126EEB004A6274 /* Persistence.swift */; };
 		0065C3E92A126EEB004A6274 /* SpendingTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0065C3E72A126EEB004A6274 /* SpendingTracker.xcdatamodeld */; };
+		0065C3F12A126FFD004A6274 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065C3F02A126FFD004A6274 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0065C3E32A126EEB004A6274 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0065C3E52A126EEB004A6274 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0065C3E82A126EEB004A6274 /* SpendingTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpendingTracker.xcdatamodel; sourceTree = "<group>"; };
+		0065C3F02A126FFD004A6274 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		0065C3DB2A126EEA004A6274 /* SpendingTracker */ = {
 			isa = PBXGroup;
 			children = (
+				0065C3EF2A126FEA004A6274 /* Main */,
 				0065C3DC2A126EEA004A6274 /* SpendingTrackerApp.swift */,
 				0065C3DE2A126EEA004A6274 /* ContentView.swift */,
 				0065C3E02A126EEB004A6274 /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				0065C3E32A126EEB004A6274 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0065C3EF2A126FEA004A6274 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0065C3F02A126FFD004A6274 /* MainView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 				0065C3E92A126EEB004A6274 /* SpendingTracker.xcdatamodeld in Sources */,
 				0065C3E62A126EEB004A6274 /* Persistence.swift in Sources */,
 				0065C3DF2A126EEA004A6274 /* ContentView.swift in Sources */,
+				0065C3F12A126FFD004A6274 /* MainView.swift in Sources */,
 				0065C3DD2A126EEA004A6274 /* SpendingTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
